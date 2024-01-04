@@ -18,6 +18,8 @@ jobs:
         run: |
           brew update
           brew install botan
+      - name: Setup Swift
+        uses: swift-actions/setup-swift@v1
       - name: Build
         run: swift build -v
       - name: Run tests
