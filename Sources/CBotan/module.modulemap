@@ -1,0 +1,5 @@
+module CBotan [system] {
+    header "shim.h"
+    link "botan-3"
+    export *
+}

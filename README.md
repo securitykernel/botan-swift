@@ -1,2 +1,3 @@
 # botan-swift
-Swift bindings for the Botan Cryptography Toolkit
+
+Swift bindings for the [Botan Cryptography Toolkit}(https://botan.randombit.net).
